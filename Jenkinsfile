@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage("Run Tests") {
             steps {
-                sh './mvnw clean test'
+                bat './mvnw clean test'
             }
         }
     }
